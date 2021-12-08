@@ -1,0 +1,26 @@
+/* display in one line */
+ul.navigation li {
+ display: inline-block;
+ 
+}
+
+.navigation a {
+    text-decoration: none;
+    color:#000;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+figure.photo {
+    width:300px;
+    height:300px;
+    background-color: #ee6;
+    padding:10px;
+}
+
+/* use object-fit:cover to fix image sizing*/
+.photo img {
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
